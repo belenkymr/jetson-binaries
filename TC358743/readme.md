@@ -2,8 +2,9 @@ Installation Instructions
 ==========================
 
 Note: these binaries are for Jetson 4.6.4, and the corresponding kernel  
+See the sources repository for compiling for other targets.
 
-E.g.:  
+e.g.:  
 
 `cat /etc/nv_tegra_release`  
 `# R32 (release), REVISION: 7.4, GCID: 33514132, BOARD: t210ref, EABI: aarch64, DATE: Fri Jun  9 04:25:08 UTC 2023`  
