@@ -22,6 +22,11 @@ For Jetson Nano targets this should be:
 
 `nvidia_sdk/JetPack_4.6.4_Linux_JETSON_NANO_TARGETS/Linux_for_Tegra/kernel/dtb/tegra210-p3448-0002-p3449-0000-b00.dtb`  
 
+Using the NVidia flash.sh, flash the device DTB only:  
+`sudo ./flash.sh -k DTB <config> mmcblk0p1`  
+
+Where <config> is `jetson-nano-emmc` for custom Jetson Nano based boards with EMMC flash.  
+
 Step 1:  
 ---------------------  
 Copy the kernel module to the target:  
